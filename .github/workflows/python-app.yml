@@ -30,7 +30,7 @@ jobs:
         python -m pip install playwright
 
     - name: Ensure Playwright browsers are installed
-        run: ptyhon -m playwright install
+      run: ptyhon -m playwright install
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
